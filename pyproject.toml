@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fastapi-jwt-auth"
+version = "0.1.0"
+description = ""
+authors = ["MukalDadhwal <mukaldadhwal@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.24.0.post1"
+pydantic = "^2.5.2"
+PyJWT = "^2.8.0"
+fastapi = "^0.104.1"
+email-validator = "^2.1.1"
+poetry-dotenv-plugin = "^0.2.0"
+sqlalchemy = "^2.0.28"
+psycopg = "^3.1.18"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,8 @@
+sql.py
+.env
+something.dart
+poetry_commands.md
+
+# always included
+/__pycache__
+/.venv
